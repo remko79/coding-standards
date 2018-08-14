@@ -1,0 +1,12 @@
+#!/bin/sh
+
+CMD="./vendor/bin/phpcs-precommit staged"
+
+${CMD}
+if [ $? != 0 ]
+then
+    echo "Pre-commit failed."
+    exit 1
+fi
+
+exit 0;

@@ -1,0 +1,19 @@
+{
+  "name": "remko79/coding-standards",
+  "description": "Scripts to support coding standards",
+  "license": "GPL-2.0+",
+  "require": {
+    "drupal/coder": "8.*"
+  },
+  "require-dev": {
+    "composer/composer": "^1.3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/CodingStandards.php"
+    ]
+  },
+  "bin": [
+    "scripts/phpcs-precommit"
+  ]
+}
