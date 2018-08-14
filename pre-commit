@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CMD="./vendor/bin/phpcs-precommit staged"
+CMD="./vendor/bin/phpcs-check staged"
 
 ${CMD}
 if [ $? != 0 ]

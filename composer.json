@@ -14,6 +14,6 @@
     ]
   },
   "bin": [
-    "scripts/phpcs-precommit"
+    "scripts/phpcs-check"
   ]
 }
